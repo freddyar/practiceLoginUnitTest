@@ -17,4 +17,12 @@ public class Authentication {
             return "user or password incorrect";
         }
     }
+
+    public void setPermissionService(PermissionService permissionService) {
+        this.permissionService = permissionService;
+    }
+
+    public void setCredentialsService(CredentialsService credentialsService) {
+        this.credentialsService = credentialsService;
+    }
 }
